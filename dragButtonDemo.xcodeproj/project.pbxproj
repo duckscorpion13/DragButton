@@ -12,6 +12,7 @@
 		F9C58AA9216C51EE0068DF23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C58AA7216C51EE0068DF23 /* Main.storyboard */; };
 		F9C58AAB216C51F00068DF23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F9C58AAA216C51F00068DF23 /* Assets.xcassets */; };
 		F9C58AAE216C51F00068DF23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F9C58AAC216C51F00068DF23 /* LaunchScreen.storyboard */; };
+		F9C58AB6216C52280068DF23 /* DragButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F9C58AB5216C52280068DF23 /* DragButton.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		F9C58AAA216C51F00068DF23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F9C58AAD216C51F00068DF23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		F9C58AAF216C51F00068DF23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F9C58AB5216C52280068DF23 /* DragButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DragButton.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +56,7 @@
 		F9C58AA2216C51EE0068DF23 /* dragButtonDemo */ = {
 			isa = PBXGroup;
 			children = (
+				F9C58AB5216C52280068DF23 /* DragButton.swift */,
 				F9C58AA3216C51EE0068DF23 /* AppDelegate.swift */,
 				F9C58AA5216C51EE0068DF23 /* ViewController.swift */,
 				F9C58AA7216C51EE0068DF23 /* Main.storyboard */,
@@ -136,6 +139,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				F9C58AA6216C51EE0068DF23 /* ViewController.swift in Sources */,
+				F9C58AB6216C52280068DF23 /* DragButton.swift in Sources */,
 				F9C58AA4216C51EE0068DF23 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -213,7 +217,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -268,7 +272,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 12.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -284,6 +288,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = dragButtonDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -301,6 +306,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				INFOPLIST_FILE = dragButtonDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
